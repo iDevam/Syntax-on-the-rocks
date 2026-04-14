@@ -1,0 +1,33 @@
+{
+  "name": "vscode-theme",
+  "displayName": "VS Code Theme",
+  "description": "A customizable VS Code color theme. Edit themes/*.json and bump version when you publish.",
+  "version": "0.0.1",
+  "publisher": "your-publisher",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Themes"],
+  "keywords": ["theme", "color-theme"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/vscode-theme.git"
+  },
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "VS Code Theme (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme-dark.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.6.0"
+  }
+}
