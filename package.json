@@ -3,7 +3,7 @@
   "displayName": "Syntax on the Rocks",
   "description": "Pour a smooth, late-night coding experience.\n\nSyntax on the Rocks brings the vibrant yet relaxed energy of local nightlife straight to your editor. Inspired by the moody atmospheres and neon accents of evening happy hours, this theme delivers a perfectly balanced dark mode. It features deep, muted backgrounds paired with crisp, punchy syntax highlighting—designed to keep your eyes comfortable and your code readable long after the sun goes down over the valley.\n\nGrab a drink, dim the lights, and write some liquid code.",
   "version": "0.0.1",
-  "publisher": "Devam Sharma",
+  "publisher": "iDevam",
   "engines": {
     "vscode": "^1.85.0"
   },
