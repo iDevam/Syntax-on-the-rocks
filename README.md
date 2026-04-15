@@ -1,6 +1,10 @@
-# VS Code Theme
+# Syntax on the Rocks
 
-Starter color theme extension. Edit `themes/theme-dark.json` for UI (`colors`) and syntax (`tokenColors`), then reload the Extension Development Host window.
+Pour a smooth, late-night coding experience.
+
+Syntax on the Rocks brings the vibrant yet relaxed energy of local nightlife straight to your editor. Inspired by the moody atmospheres and neon accents of evening happy hours, this theme delivers a perfectly balanced dark mode. It features deep, muted backgrounds paired with crisp, punchy syntax highlighting—designed to keep your eyes comfortable and your code readable long after the sun goes down over the valley.
+
+Grab a drink, dim the lights, and write some liquid code.
 
 ## Prerequisites
 
@@ -11,7 +15,7 @@ Starter color theme extension. Edit `themes/theme-dark.json` for UI (`colors`) a
 
 1. Open this folder in VS Code.
 2. Run **Run Extension** from the Run and Debug panel (or press F5).
-3. In the new window, open **Preferences: Color Theme** and pick **VS Code Theme (Dark)**.
+3. In the new window, open **Preferences: Color Theme** and pick **Syntax on the Rocks**.
 
 ## Change colors later
 
@@ -29,15 +33,20 @@ This creates `vscode-theme-0.0.1.vsix` (name follows `package.json`).
 
 ## Publish on GitHub
 
-1. Replace `your-publisher` and the `repository.url` in `package.json` with your [publisher id](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#create-a-publisher) and repo URL.
-2. Create a new repository on GitHub and push this folder:
+This project tracks **[Syntax on the rocks](https://github.com/iDevam/Syntax-on-the-rocks)** (`repository.url` in `package.json` is set accordingly).
+
+If this clone has no `origin` yet:
 
 ```bash
-git init
-git add .
-git commit -m "Initial VS Code theme extension"
+git remote add origin https://github.com/iDevam/Syntax-on-the-rocks.git
 git branch -M main
-git remote add origin https://github.com/your-username/vscode-theme.git
+git push -u origin main
+```
+
+If `origin` already exists and should point at this repo:
+
+```bash
+git remote set-url origin https://github.com/iDevam/Syntax-on-the-rocks.git
 git push -u origin main
 ```
 

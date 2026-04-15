@@ -1,9 +1,9 @@
 {
   "name": "vscode-theme",
-  "displayName": "VS Code Theme",
-  "description": "A customizable VS Code color theme. Edit themes/*.json and bump version when you publish.",
+  "displayName": "Syntax on the Rocks",
+  "description": "Pour a smooth, late-night coding experience.\n\nSyntax on the Rocks brings the vibrant yet relaxed energy of local nightlife straight to your editor. Inspired by the moody atmospheres and neon accents of evening happy hours, this theme delivers a perfectly balanced dark mode. It features deep, muted backgrounds paired with crisp, punchy syntax highlighting—designed to keep your eyes comfortable and your code readable long after the sun goes down over the valley.\n\nGrab a drink, dim the lights, and write some liquid code.",
   "version": "0.0.1",
-  "publisher": "your-publisher",
+  "publisher": "Devam Sharma",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -11,13 +11,13 @@
   "keywords": ["theme", "color-theme"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/vscode-theme.git"
+    "url": "https://github.com/iDevam/Syntax-on-the-rocks.git"
   },
   "license": "MIT",
   "contributes": {
     "themes": [
       {
-        "label": "VS Code Theme (Dark)",
+        "label": "Syntax on the Rocks",
         "uiTheme": "vs-dark",
         "path": "./themes/theme-dark.json"
       }
